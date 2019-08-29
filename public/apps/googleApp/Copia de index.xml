@@ -1,0 +1,18 @@
+<div class="page">
+	<h1>Google Powered Site Search</h1>
+	<div uid="searchForm" class="searchForm">
+		<fieldset>
+			<input uid="sInput" class="sInput" type="text" />
+			<input type="button" value="Submit" uid="submitButton" class="submitButton" />
+			<ul class="icons">
+				<li class="web" title="Web Search" data-searchType="web">Web</li>
+				<li class="images" title="Image Search" data-searchType="images">Images</li>
+				<li class="news" title="News Search" data-searchType="news">News</li>
+				<li class="videos" title="Video Search" data-searchType="video">Videos</li>
+			</ul>
+			
+		</fieldset>
+	</div>
+	<div uid="resultsDiv"></div>
+	<div uid="divToTop"><img width="32" height="32" src="apps/google/img/Gnome-Go-Top-64.png"/></div>
+</div>

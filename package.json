@@ -1,0 +1,38 @@
+﻿{
+  "name": "wubOS",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+	"start": "node foreverapp.js"
+  },
+  "dependencies": {
+	"socket.io": "*",
+	"express": "4.10.2",
+	"multer": "~0.1.6",
+	"mime": "*",
+	"body-parser": "*",
+	"fs-extra": "*",
+	"express-session": "*",
+	"xml2js": "*",
+	"progress-stream": "*",
+	"clear": "*",
+	"forever-monitor": "*",
+	"hat": "*",
+	"express-socket.io-session": "*",
+	"geoip-lite": "*",
+	"html2canvas-proxy": "*",
+	"cors": "*",
+	"jade": "*",
+	"file-type": "*",
+	"formidable": "*",
+	"express-device": "*",
+	"mysql": "*",
+	"sha1": "*",
+	"firebase": "*",
+	"firebase-admin": "*",
+	"file-base64": "*",
+	"request": "~2.34.0",
+	"meta-extractor": "*"
+	"path-posix": "*"
+  }
+}

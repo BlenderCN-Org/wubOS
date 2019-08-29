@@ -1,0 +1,81 @@
+﻿.appsmarket{
+	overflow: hidden!important;
+}
+
+.appsmarket .cabecera{
+	z-index: 10;
+	padding: 10px;
+	height: 60px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border-bottom: solid 1px #333;
+	width: calc(100% - 20px);
+	background-color: #FED93D;
+}
+.appsmarket .contentApps{
+	height: calc(100% - 81px);
+	overflow: auto;
+	width: 100%;
+	background-color: #D5B931;
+}
+.appsmarket .search_input{
+	position: relative;
+	top: -17px;
+	height: 40px;
+	width: 50%;
+	border: solid 1px #c2ccd1;
+	border-radius: 5px;
+	font-size: 18px;
+	background-color: #D5B931;
+}
+.appsmarket .btnSearch{
+	width: 90px;
+	position: relative;
+	top: -19px;
+	height: 40px;
+	height: 40px;
+	border: solid 1px #c2ccd1;
+	border-radius: 5px;
+}
+.appsmarket .btnSearch:hover{
+	background-color: #FED93D;
+	color: white;
+	font-weight: bolder;
+}
+.appsmarket .logo{
+	cursor: pointer;
+}
+.appsmarket .appFieldSet{
+	background-size: 48px 48px;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	margin: 4px;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 4px;
+	background-position: 1px 1px;
+	padding-bottom: 2px;
+	background-position: left center;
+}
+.appsmarket .appFieldSet:hover{
+	background-color: #FED93D;
+	color: white;
+	font-weight: bolder;
+	border-color: white;
+}
+.appsmarket .appFieldSet legend{
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 0px 2px 0px 2px;
+	border-radius: 4px;
+}
+.appsmarket .appFieldSet:hover > legend{
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background-color: #FED93D;
+}
+.appsmarket hr{ border: 0; height: 0; /* Firefox... */ box-shadow: 0 0 10px 1px black; } 
+.appsmarket hr:after { /* Not really supposed to work, but does */ content: "\00a0"; /* Prevent margin collapse */ }

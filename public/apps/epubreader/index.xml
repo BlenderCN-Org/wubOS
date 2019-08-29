@@ -1,0 +1,13 @@
+<div class="base">
+	<span>
+		<span uid="openChapter"><i class="openChapter fa fa-list" aria-hidden="true" title="Capítulos"></i></span>
+		<center class="centerSlider"><div uid="slider"></div></center>
+	</span>
+	<div uid="prev" class="arrow aPrev">&#60;</div>
+	<div uid="area" class="areaBook"></div>
+	<div uid="next" class="arrow aNext">&#62;</div>
+	<div uid="chapterDiv" class="chapterDiv">
+		<ul class="chapterUl" uid="chapterUl">
+		</ul>
+	</div>
+</div>

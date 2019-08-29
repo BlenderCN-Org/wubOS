@@ -1,0 +1,14 @@
+<div>
+	<form id="upload" uid="upload" method="post" action="/upload" enctype="multipart/form-data">
+		<input name="userFTP" uid="userFTP" type="hidden" value=""/>
+		<input name="userFTPAuthToken" uid="userFTPAuthToken" type="hidden" value=""/>
+		<input name="directoryFTP" uid="directoryFTP" type="hidden" value=""/>
+		<div id="drop" uid="drop">
+			Drop Here
+			<a>Browse</a>
+			<input type="file" uid="upl" name="upl" multiple="multiple" />
+		</div>
+		<ul uid="ulUpload">
+		</ul>
+	</form>
+</div>

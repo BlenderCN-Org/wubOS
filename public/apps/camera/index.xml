@@ -1,0 +1,7 @@
+<div class="baseCamera">
+	<video autoplay="true" class="cameraControl" uid="cameraControl"></video>
+	<canvas class="canvasCamera" uid="canvasCamera"></canvas>
+	<div class="cameraControlsDiv">
+		<button class="btnCamera" uid="btnCapture"></button>
+	</div>
+</div>

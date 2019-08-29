@@ -1,0 +1,5 @@
+.reloj .clock { position: relative; clear: both;}
+.reloj canvas { position: absolute; top: 0; }
+.reloj{ background-color: black; }
+#widgetReloj canvas { position: absolute; top: 20px; left: 25px;}
+#widgetReloj{ position: relative; left: 80px}

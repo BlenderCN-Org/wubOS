@@ -1,0 +1,9 @@
+<div id="baseAD">
+	<div uid="divChart"></div>
+	<b>Aplicaciones y Procesos</b>
+	<ul id="ulProcesos" uid="ulProcesos">
+	</ul>
+	<button id="btnFnProc" uid="btnFnProc">Finalizar Proceso/s</button>
+	<button id="btnSelecAllProc" uid="btnSelecAllProc">Seleccionar todos</button>
+	<div uid="cnxChart"></div>
+</div>

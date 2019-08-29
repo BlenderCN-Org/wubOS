@@ -1,0 +1,45 @@
+﻿<html>
+	<head>
+		<title>wubOS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<link rel="shortcut icon" href="favicon.ico" />
+		
+		<link href="css/jquery-ui.min.css" rel="stylesheet"/>
+		<!--<link id="jqueryTheme" href="css/ui-darkness/jquery-ui-1.9.2.custom.css" rel="stylesheet"/>-->
+		<link id="jqueryTheme" href="themes-1.12.0/base/theme.css" rel="stylesheet"/>
+		<!--<script src="js/jquery-2.1.4.min.js"></script>-->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<!--<script src="js/jquery-ui-1.9.2.custom.min.js"></script>-->
+		<script src="js/jquery-ui-1.12.0.min.js"></script>
+		
+		<!--<script src="js/jquery.ui.touch-punch.js"></script>-->
+		<script src="js/jquery.ui.touch-punch.min.js"></script>
+		
+		<link href="css/index.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div id="dialog">
+			<p>Sólo se puede abrir una instancia de wubOS por sesión de navegador</p>
+		</div>
+		<script>
+			$(function() {
+				$( "#dialog" ).dialog({
+					draggable: false,
+					autoOpen: true,
+					resizable: false,
+					title: "Múltiples wubOS abiertas",
+					open: function(event, ui) { 
+						$(this).parent().children().children('.ui-dialog-titlebar-close').hide();
+						$(window).resize(function() {
+							$("#dialog").parent().position({ 
+								my : "center",
+								at : "center",
+								of : window
+							});
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

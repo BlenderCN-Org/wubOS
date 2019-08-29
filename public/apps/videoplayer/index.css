@@ -1,0 +1,55 @@
+.videoplayer{
+	background-color: #7EC345;
+	height: 100%;
+	width: 100%;
+}
+.videoplayer button{
+	border: 1px solid white;
+	color: white;
+	background-color: #7EC345;
+	border-radius: 2px;
+	margin: 1px;
+}
+.videoplayer button:hover{
+	background-color: #40942C;
+}
+.videoplayer .listVideoControl{
+	height: 90px;
+	width: 100%;
+	overflow: auto;
+	background-color: #7EC345;
+	overflow-x: hidden;
+}
+.videoplayer audio{
+	width: 100%;
+}
+.videoplayer .listVideoControl li{
+	padding: 2px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+ .videoplayer .listVideoControl li:hover{
+	padding: 2px;
+	background-color: #40942C;
+}
+ .videoplayer .played{
+	background-color: white;
+}
+.videoplayer .videoDivControl{
+	background-color:black;
+	height: calc(100% - 116px);
+	width: 100%;
+	background-color: black;
+}
+.videoplayer button{
+	height: 24px;
+}
+.videoplayer .videoControl{
+	height: 100%;
+	width: 100%;
+}
+.videoplayer .baseVideoPlayer{
+	height: 100%;
+	width: 100%;
+}
+.context-menu-item.context-menu-icon-videoplayer {background-size: 16px 16px; background-image: url(img/favicon.png);  background-repeat: no-repeat;background-position: 10px;}

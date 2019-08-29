@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<style>
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			html {
+				height: 100%;
+			}
+			body {
+				min-height: 100%;
+			}
+			#jqcmd{
+				height: 200px;
+			}
+			#cmdmap{
+				height: 200px;
+			}
+		</style>
+		<meta charset="utf-8" />
+		<title>WubOS Console</title>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.mousewheel-min.js"></script>
+		<script src="js/jquery.terminal-min.js"></script>
+		<link href="css/jquery.terminal.css" rel="stylesheet"/>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/jquery-jvectormap-1.2.2.min.js"></script>
+		<script src="js/jquery-jvectormap-world-mill-en.js"></script>
+		<link href="css/jquery-jvectormap-1.2.2.css" rel="stylesheet"/>
+	</head>
+<body>
+	<div id="jqcmd"></div>
+	<div id="cmdmap"></div>
+<script>
+	jQuery(document).ready(function($) {
+		var socket = io('', { query: "type=cmd" });
+		//var trmCmd;
+		socket.on('*', function(result){
+			/*if(trmCmd)
+				trmCmd.echo(new String(result));*/
+			cmd.echo(result);
+		});
+		socket.on('disconnect', function(){
+			document.location.reload();
+		});
+		var cmd = $('#jqcmd').terminal(function(command, term){
+			if(command == "cls")
+				cmd.clear();
+			else
+				socket.emit('consoleeval', command);
+			//trmCmd = term;
+		},{
+			greetings: "WubOS Console",
+			onBlur: function() {
+				// prevent loosing focus
+				return false;
+			}
+		});
+		socket.on('ipsCoords', function(data){
+			var parseData = JSON.parse(data);
+			var ips = [];
+			for(var i = 0; i < parseData.length; i++)
+			{
+				ips.push({latLng: parseData[i], name: i});
+			}
+			var map = $('#cmdmap').vectorMap({
+			map: 'world_mill_en',
+			normalizeFunction: 'polynomial',
+			hoverOpacity: 0.7,
+			hoverColor: false,
+			backgroundColor: 'transparent',
+			regionStyle: {
+			  initial: {
+				fill: 'rgba(210, 214, 222, 1)',
+				"fill-opacity": 1,
+				stroke: 'none',
+				"stroke-width": 0,
+				"stroke-opacity": 1
+			  },
+			  hover: {
+				"fill-opacity": 0.7,
+				cursor: 'pointer'
+			  },
+			  selected: {
+				fill: 'yellow'
+			  },
+			  selectedHover: {}
+			},
+			markerStyle: {
+			  initial: {
+				fill: '#00a65a',
+				stroke: '#111'
+			  }
+			},
+			markers: ips
+		  });
+		});
+		socket.emit('getConnectedIps');
+		
+	});
+</script>
+</body>

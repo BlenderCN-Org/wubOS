@@ -1,0 +1,5 @@
+<div uid="basePlayer" style="height: 100%; width: 100%;">
+	<video uid="video">
+		<source uid="sourceVideo"/>
+	</video>
+</div>

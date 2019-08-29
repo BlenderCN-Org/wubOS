@@ -1,0 +1,12 @@
+<div class="explorerTab">
+	<div class="explorerBar" uid="divBarra">
+		<button title="Subir Archivo" style="background-image: url('apps/ftpexplorer/img/cloud-upload-48.png');" uid="btnUpload"></button>
+		<button title="Ir Arriba" style="background-image: url('apps/ftpexplorer/img/go-up.png');"  uid="btnGoUp"></button>
+		<button title="Recargar" style="background-image: url('apps/ftpexplorer/img/sync-128.png');"  uid="btnRefresh"></button>
+		<select uid="rutaInp"></select>
+	</div>
+	<div class="explorerContent" uid="contentDiv">
+		<div uid="divTree"><ul uid="ulTree"></ul></div>
+		<div uid="divGridView" class="divGridView"></div>
+	</div>
+</div>

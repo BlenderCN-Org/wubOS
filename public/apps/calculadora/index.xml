@@ -1,0 +1,90 @@
+<table style="height:100%;width:100%;padding-bottom: 5px;" border="0" align="center">
+	<tr align="center">
+		<td colSpan ="4">
+			<table border="0">
+				<tr>
+					<td align="center"><input style="height:100%;width:100%;text-align: right;" uid="display" value="0" size="20"/></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr align="center">
+		<td style="width: 25%;">
+			<input style="height:100%;width:100%;" uid="btn7" type="button" value="7"/>
+		</td>
+		<td style="width: 25%;">
+			<input style="height:100%;width:100%;" uid="btn8" type="button" value="8"/>
+		</td>
+		<td style="width: 25%;">
+			<input style="height:100%;width:100%;" uid="btn9" type="button" value="9"/>
+		</td>
+		<td style="width: 25%;">
+			<input style="height:100%;width:100%;" uid="btnDiv" type="button" value="/"/>
+		</td>
+	</tr>
+	<tr align="center">
+		<td>
+			<input style="height:100%;width:100%;" uid="btn4" type="button" value="4"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btn5" type="button" value="5"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btn6" type="button" value="6"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnMult" type="button" value="*"/>
+		</td>
+	</tr>
+	<tr align="center">
+		<td>
+			<input style="height:100%;width:100%;" uid="btn1" type="button" value="1"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btn2" type="button" value="2"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btn3" type="button" value="3"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnMenos" type="button" value="-"/>
+		</td>
+	</tr>
+
+	<tr align="center">
+		<td>
+			<input style="height:100%;width:100%;" uid="btn0" type="button" value="0"/> 
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnPtn" type="button" value="."/> 
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnSigno" type="button" value="+/-"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnMas" type="button" value="+"/>
+		</td>
+	</tr>
+	<tr align="center">
+		<td>
+			<input style="height:100%;width:100%;" uid="btnAbrePar" type="button" value="("/> 
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnCierraPar" type="button" value=")"/> 
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnCuadrado" type="button" value="^2"/>
+		</td>
+		<td>
+			<input style="height:100%;width:100%;" uid="btnDel" type="button" value="&lt;--"/>
+		</td>
+	</tr>
+	<tr align="center">
+		<td colSpan="2">
+			<input style="height:100%;width:100%;" uid="btnIgual" type="button" value="=" name="enter"/>
+		</td>
+		<td colSpan="2">
+			<input style="height:100%;width:100%;" uid="btnC" type="button" value="C"/>
+		</td>
+	</tr>
+</table>

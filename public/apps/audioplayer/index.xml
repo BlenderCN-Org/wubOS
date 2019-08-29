@@ -1,0 +1,9 @@
+<div>
+	<ul uid="listAudioControl" class="listAudioControl" ></ul>
+	<canvas class="audioCcanvas" uid='audioCcanvas' width="500" height="350"></canvas>
+	<div uid="audioDivControl" class="audioDivControl">
+		<audio uid="audioControl" controls="true">
+			<source uid="sourceAudio"></source>
+		</audio>
+	</div>
+</div>

@@ -1,0 +1,41 @@
+﻿.cTab{
+	display: inline-block;
+	padding: 2px;
+	padding-right: 14px;
+	height: calc(100% - 4px);
+	cursor: pointer;
+	text-align: center;
+	line-height: 35px;
+	position: relative;
+}
+.cTab:hover{
+	color: white;
+}
+.cTabUl{
+	background-color: gray;
+	height: 40px;
+	width: 100%;
+}
+.baseDivCTabs{
+	position: absolute;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.divCtabs{
+	height: calc(100% - 40px);
+	width: 100%;
+	position: relative;
+	background-color: black;
+}
+.cTabSelect{
+	color: white;
+}
+.btnCloseCtabs{
+	position: absolute;
+	right: 1px;
+	top: calc(50% - 8px);
+}

@@ -1,0 +1,75 @@
+.audioplayer{
+	background-color: #2C8AAA;
+}
+.audioplayer button{
+	border: 1px solid white;
+	color: white;
+	background-color: #2C8AAA;
+	border-radius: 2px;
+	margin: 1px;
+}
+.audioplayer button:hover{
+	background-color: #306273;
+}
+.audioplayer .listAudioControl{
+	height: 90px;
+	width: 100%;
+	overflow: auto;
+	background-color: #2C8AAA;
+	overflow-x: hidden;
+}
+.audioplayer audio{
+	width: 100%;
+}
+.audioplayer .listAudioControl li{
+	padding: 2px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+ .audioplayer .listAudioControl li:hover{
+	padding: 2px;
+	background-color: #306273;
+}
+ .audioplayer .played{
+	background-color: white;
+}
+.audioplayer .audioCcanvas{
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: calc(100% - 130px);
+	background-size: 100% 100%;
+}
+.audioplayer .audioDivControl{
+	background-color:black;
+	width: 100%;
+	background-size: 100% 100%;
+}
+.audioplayer button{
+	height: 24px;
+}
+
+#widgetAudioPlayer .btnControlAudioWidget{
+	height: 32px;
+	width: 32px;
+	border: 0px;
+	background-size: 100% 100%;
+	background-color: transparent;
+}
+.audioplayer .btnNext{
+	background-image: url('img/next.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 24px;
+	color: transparent;
+}
+.audioplayer .btnPrevious{
+	background-image: url('img/previous.png');
+	background-size: 100% 100%;
+	width: 30px;
+	height: 24px;
+	color: transparent;
+}
+.context-menu-item.context-menu-icon-audioplayer {background-size: 16px 16px; background-image: url(img/favicon.png);  background-repeat: no-repeat;background-position: 10px;}

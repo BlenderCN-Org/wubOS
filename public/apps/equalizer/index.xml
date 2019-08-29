@@ -1,0 +1,5 @@
+<p>
+	<div style="width: 100%;" class="audiocontrolequalizer equalizer"></div>
+	<audio id="audiocontrolequalizer" uid="audiocontrol">
+	</audio>
+</p>

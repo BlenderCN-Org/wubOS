@@ -1,0 +1,7 @@
+<div uid="base">
+	<div>
+		<input uid="inputChannel" type="text"/>
+		<button uid="btnSearch">Search</button>
+	</div>
+	<div uid="youmax"></div>
+</div>

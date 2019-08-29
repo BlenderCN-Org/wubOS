@@ -1,0 +1,200 @@
+﻿<html id="baseHtml">
+	<head>
+		<title>wubOS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+		<link rel="shortcut icon" href="favicon.ico" />
+		
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: "AIzaSyCdewUtpXyJpYxAU61fVMIWr8blIZ_EUSs",
+				authDomain: "api-project-268959058773.firebaseapp.com",
+				databaseURL: "https://api-project-268959058773.firebaseio.com",
+				projectId: "api-project-268959058773",
+				storageBucket: "api-project-268959058773.appspot.com",
+				messagingSenderId: "268959058773"
+			};
+			firebase.initializeApp(config);
+		</script>
+		
+		<script src="js/jquery-1.9.0.js"></script>
+		
+		<link href="css/liveurl.css" rel="stylesheet"/>
+		<!--script src="js/jquery.liveurl.js"></script>
+		<script type="text/javascript">
+			var jQuery_1_9_0 = $.noConflict(true);
+		</script-->
+		
+		<link href="css/jquery-ui.min.css" rel="stylesheet"/>
+		<!--<link id="jqueryTheme" href="css/ui-darkness/jquery-ui-1.9.2.custom.css" rel="stylesheet"/>-->
+		<link id="jqueryTheme" href="themes-1.12.0/base/theme.css" rel="stylesheet"/>
+		<!--<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>-->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!--<script src="js/jquery-ui-1.9.2.custom.min.js"></script>-->
+		<script src="js/jquery-ui-1.12.0.min.js"></script>
+		
+		<!--<script src="js/jquery.ui.touch-punch.js"></script>-->
+		<script src="js/jquery.ui.touch-punch.min.js"></script>
+		
+		<!--script src="bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css"/-->
+		
+		<script src="js/jquery.sparkline.min.js"></script>
+		<script src="js/connectionChart.js"></script>
+		
+		<script src="/socket.io/socket.io.js"></script>
+		
+		<script src="js/FileSaver.js"></script>
+		
+		<!--<script src="js/sweetalert.min.js"></script>
+		<link rel="stylesheet" href="css/sweetalert.css"/>-->
+		<script src="js/sweetalert2.js"></script>
+		<link rel="stylesheet" href="css/sweetalert2.css"/>
+		
+		<script src="js/jquery.contextMenu.js"></script>
+		<script src="js/jquery.ui.position.min.js"></script>
+		<link rel="stylesheet" href="css/jquery.contextMenu.css"/>
+		
+		<script src="js/jquery.ui-contextmenu.min.js"></script>
+		
+		<script src="js/Stats.js"></script>
+		
+		<script src="js/sha1.js"></script>
+		
+		<script src="js/easyNotify.js"></script>
+		
+		<script src="js/jquery.dd.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/dd.css" />
+		
+		<!--<script src="js/jquery-carousel3d-1.0.1.js"></script>
+		<link rel="stylesheet" href="css/carousel3d.css"/>
+		<link rel="stylesheet" href="css/carousel3dstyle.css"/>-->
+		
+		<script src="js/jquery.circular-carousel.js"></script>
+		<link rel="stylesheet" href="css/jquery.circular-carousel.css"/>
+		
+		<script src="js/utils.js"></script>
+		<script src="js/carousel3d.js"></script>
+		<link rel="stylesheet" href="css/crousel3d2.css"/>
+		
+		<script src="js/addclear.min.js"></script>
+		
+		<script src="js/hideShowPassword.min.js"></script>
+		<link href="css/hideShowPassword.css" rel="stylesheet"/>
+		
+		<script src="js/jquery.iframetracker.js"></script>
+		
+		<script src="js/jquery.browser.min.js"></script>
+		
+		<script src="js/screenfull.min.js"></script>
+		
+		<script src="js/moment-with-locales.js"></script>
+		
+		<script src="js/jquery.resizeend.min.js"></script>
+		<script src="js/jquery.onresize.min.js"></script>
+		
+		<script src="js/attrchange.js"></script>
+		
+		<script src="js/simpler-sidebar.js"></script>
+		
+		<script src="js/iosbadge.js"></script>
+		<link href="css/iosbadge.css" rel="stylesheet"/>
+		
+		<link href="css/loader.css" rel="stylesheet"/>
+		
+		<script src="js/wubOSNavBar.js"></script>
+		<link href="css/wubOSNavBar.css" rel="stylesheet"/>
+		
+		<link href="css/font-awesome.min.css" rel="stylesheet"/>
+		
+		<link href="css/ripple.min.css" rel="stylesheet"/>
+		
+		<script src="js/favico-0.3.10.min.js"></script>
+		<script src="js/loadgo.min.js"></script>
+		
+		<script src="js/jquery.blockUI.js"></script>
+		
+		<script src="js/tilt.jquery.js"></script>
+		<link href="css/tilt.scss" rel="stylesheet"/>
+		
+		<script src="js/jquery.toast.js"></script>
+		<link href="css/jquery.toast.css" rel="stylesheet"/>
+		
+		<link href="css/index.css" rel="stylesheet"/>
+		<script src="js/js.cookie.js"></script>
+		<script src="js/URI.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		
+		<script src="js/sketch.min.js"></script>
+		
+		<script src="js/MetroJs.lt.js"></script>
+		<link href="css/MetroJs.lt.css" rel="stylesheet"/>
+		
+		<script src="js/swiper.min.js"></script>
+		<link href="css/swiper.min.css" rel="stylesheet"/>
+		
+		<!--script src="js/particles.min.js"></script>
+		
+		<script src="js/html2canvas.js"></script>
+		
+		<script src="js/jquery.metro-btn.js"></script>
+		<link href="css/jq-metro.css" rel="stylesheet"/>
+		
+		<script src="js/background-check.min.js"></script>
+		
+		<script src="js/rasterizeHTML.allinone.js"></script>
+		<script src="js/dom-to-image.min.js"></script-->
+		
+		<!--script src="js/ResizeSensor.js"></script>
+		<script src="js/ElementQueries.js"></script>
+		<script src="js/ripple.js"></script-->
+		
+		<script src="js/uiFramework.js"></script>
+		<script src="js/ventana4.js"></script>
+		<script src="js/user.js"></script>
+		<script src="js/proceso.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/accesoDirecto.js"></script>
+		<script src="js/loader.js"></script>
+		<script src="js/resourcesLoader.js"></script>
+		<script src="js/wubOS.js"></script>
+		
+		<!--script src="https://www.google.com/jsapi" type="text/javascript"></script-->
+		<script>
+			var CookiesJS = Cookies.noConflict();
+			/*if(CookiesJS.get('theme'))
+			{
+				document.getElementById("jqueryTheme").href = CookiesJS.get('theme');
+			}*/
+			try
+			{
+				var userLang = navigator.language || navigator.userLanguage; 
+				console.log(userLang);
+				moment.locale(userLang.split('-')[0]);
+				moment().format();
+			}
+			catch(exc){
+				
+			}
+			$(document).ready(function() {
+				setTimeout(function(){ new wubOS(3);},750);
+			});
+		</script>
+	</head>
+	<body id="baseBody">
+		<div class="video-background">
+			<div class="video-foreground">
+				<iframe frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div id="particles-js"></div>
+		<script>
+			$('.video-background iframe').attr('src', 'https://www.youtube.com/embed?listType=playlist&list=PLiODliworwYncWl110s93D6owmDps73I7&controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&iv_load_policy=3&index=' + Math.floor((Math.random() * 49) + 1));
+			/*particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+				console.log('callback - particles.js config loaded');
+			});*/
+		</script>
+	</body>
+</html>

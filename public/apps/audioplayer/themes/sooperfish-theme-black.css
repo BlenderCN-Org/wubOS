@@ -1,0 +1,49 @@
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+*/
+
+/* Theming the menu */
+
+ul.sf-menu {
+	float:left;
+	background-color:#111;
+	width:100%;
+}
+
+ul.sf-menu ul {
+background:#111;
+}
+
+ul.sf-menu li a {
+padding:10px 15px;
+font-family:helvetica,arial,verdana,sans;
+text-decoration:none;
+color:#eee;
+background:#222;
+border-bottom:1px solid #eee;
+border-left:1px solid #eee;
+border-right:1px solid #eee;
+}
+
+ul.sf-menu li a:hover
+,ul.sf-menu li a:focus {
+color:#111;
+background:#ccc;
+}
+
+ul.sf-menu ul ul {
+border-top:1px solid #eee;
+margin-top:-1px;
+}
+
+div.sf-arrow {
+top:18px;
+right:2px;
+background-image:url(../images/arrows-white.png);
+}
+
+ul ul div.sf-arrow {
+right:12px;
+top:16px;
+}

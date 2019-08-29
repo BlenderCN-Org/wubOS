@@ -1,0 +1,31 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*:focus{
+	outline: none;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+a{
+	text-decoration: underline;
+	cursor: pointer;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	overflow: hidden!important;
+	background-image: url('../wubOS.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+hr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.imgFile{
+	margin-bottom: -5px;
+}

@@ -1,0 +1,19 @@
+﻿<div uid="baseDL" style="height: 100%;">
+	<div id="cabecera">
+		<img uid="logo" id="logo" class="logo" src="apps/dailymotion/img/dailymotion_logo_detail.png" width="128" height="50" alt="Dailymotion"/>
+		<input type="text" uid="search_input" id="search_input" class='search_input' />
+		<input type="button" uid="btnSearch" id="btnSearch" value="Buscar" />
+	</div>
+	<div uid="contentVideo" id="contentVideo">
+		<div uid="video" id="video"></div>
+		<div uid="cajaVideos" id="cajaVideos">
+			<label uid="infoSearch" id="infoSearch"></label>
+			<div uid="wrapper">
+				<section>
+					<div class="data-container"></div>
+					<div uid="pagination"></div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>

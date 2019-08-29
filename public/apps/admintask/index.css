@@ -1,0 +1,37 @@
+.admintask li{
+	padding-left: 20px;
+	white-space: nowrap;
+	list-style: none;
+}
+.admintask{
+	overflow-x: hidden;
+	height: 100%;
+}
+
+.admintask #baseAD{
+	overflow-x: hidden;
+	height: 100%;
+	background-color: lightgray;
+}
+
+.admintask #ulProcesos{
+	height: calc(100% - 120px);
+	overflow-y: auto;
+	background-color: lightgray;
+	overflow-x: hidden;
+}
+.admintask #ulProcesos li{
+	background-color: lightgray;
+}
+.admintask #ulProcesos li li{
+	background-color: gray;
+}
+.admintask #btnFnProc{
+	font-size: 17px;
+	width: 49%;
+	left: 5px;
+}
+.admintask #btnSelecAllProc{
+	font-size: 17px;
+	width: 48%;
+}

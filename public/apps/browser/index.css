@@ -1,0 +1,29 @@
+﻿.browserApp{
+	background-color: #eeeeee;
+	overflow: hidden;
+}
+.browserApp .fillCOntainer{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.browserApp .ui-icon-close { float: left; margin: 0.4em 0.2em 0 0; cursor: pointer; }
+.browserApp iframe{
+	height: 100%;
+	width: 100%;
+}
+.browserApp .ui-tabs-panel.ui-widget-content.ui-corner-bottom{
+	overflow: hidden!important;
+	padding: 0px;
+}
+.browserApp .ui-tabs.ui-widget.ui-widget-content.ui-corner-all.ui-tabs-collapsible{
+	height: 100%!important;
+}
+.browserApp .ui-tabs-panel.ui-widget-content.ui-corner-bottom{
+	height: 92%!important;
+}
+.browserApp .btnAddTab{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}

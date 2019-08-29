@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="wubOSNavBar.css" rel="stylesheet">
+<script src="wubOSNavBar.js"></script>
+</head>
+<body>
+<div id="menu"></div>
+<script>
+	var items = [
+		{
+			content: 'header1',
+		},
+		{
+			content: 'header2',
+			items: [
+				{
+					content: 'menu1',
+					items: [
+						{
+							content: 'header3',
+							items:[
+								{
+									content: 'asad'
+								}
+							]
+						},
+						{
+							content: 'header3',
+						}
+					]
+				},
+				{
+					content: 'menu2'
+				}
+			]
+		},
+		{
+			content: 'header3',
+		},
+	];
+	$('#menu').wubOSNavBar(items);
+</script>
+</body>
+</html>

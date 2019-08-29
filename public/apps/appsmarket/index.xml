@@ -1,0 +1,12 @@
+﻿<div uid="baseMk" style="height: 100%;">
+	<div class="cabecera">
+		<img uid="logo" class="logo" src="apps/appsmarket/img/favicon.png" width="128" height="50" alt="YouTube"/>
+		<input type="text" uid="search_input" class='search_input' />
+		<input type="button" uid="btnSearch" class="btnSearch" value="Buscar" />
+	</div>
+	<div uid="contentApps" class="contentApps">
+		<ul uid="listApp">
+		</ul>
+		<span uid="pagination"></span>
+	</div>
+</div>

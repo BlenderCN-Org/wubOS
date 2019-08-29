@@ -1,0 +1,20 @@
+﻿<div uid="baseYT" style="height: 100%;">
+	<img uid="toTopArrow" src="apps/youtube/img/arrow.png" style="position:absolute;display:none;cursor:pointer;z-index:9999;bottom:10px;right:14px;"/>
+	<div id="cabecera">
+		<img uid="logo" id="logo" class="logo" src="apps/youtube/img/YouTube.png" width="128" height="50" alt="YouTube"/>
+		<input type="text" uid="search_input" id="search_input" class='search_input' />
+		<input type="button" uid="btnSearch" class="btnYt" value="Buscar" />
+		<input type="button" uid="btnLogIn" class="btnYt" value="Iniciar sesión" />
+		<input style="left: 140px;" type="button" uid="btnSubs" class="btnTab" value="Suscripciones" />
+		<input style="left: 10px;" type="button" uid="btnMyChannel" class="btnTab" value="Mi Canal" />
+	</div>
+	<div uid="contentVideo" id="contentVideo">
+		<div uid="video" id="video">
+		</div>
+		<div uid="cajaVideos" id="cajaVideos">
+			<label uid="infoSearch" id="infoSearch"></label>
+			<table uid="result" id="result">
+			</table>
+		</div>
+	</div>
+</div>

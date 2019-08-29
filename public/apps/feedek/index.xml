@@ -1,0 +1,9 @@
+<div style="height: 100%;">
+	<div class="fdMenu">
+		<input type="text" uid="feedUrlInput"/>
+		<button uid="btnLoadFeed">Cargar Feed</button>
+	</div>
+	<div id="accordioncontainer">
+		<div uid="accordionFeed"></div>
+	</div>
+</div>

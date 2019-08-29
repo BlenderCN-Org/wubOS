@@ -1,0 +1,10 @@
+<div style="height: 100%; width: 100%;">
+	<select uid="codeLang">
+		<option value="html">HTML</option>
+		<option value="js">JavaScript</option>
+		<option value="css">CSS</option>
+	</select>
+	<div uid="dEditor">
+		<div uid="codeEditor" style="width: calc(100%-2px);height: 100%;border:1px solid #ccc;background:#f5f5f5;"></div>
+	</div>
+</div>

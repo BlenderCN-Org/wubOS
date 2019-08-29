@@ -1,0 +1,13 @@
+<div class="base">
+	<div uid="headerTwitch" class="head">
+		<img class="logo" uid="logo" src="apps/twitch/img/favicon.png"/>
+		<input class="inputSearch" uid="inputSearch" type="text"/>
+		<button class="btnTwitch" uid="btnSearch">Buscar Strems</button>
+		<button class="btnTwitch" uid="btnSearchGames">Buscar Juegos</button>
+		<button class="btnTwitch" uid="btnGames">Tops Juegos</button>
+	</div>
+	<div class="contentDiv" uid="contentDiv">
+		<div class="divStream" uid="divStream"></div>
+		<div uid="divSearch"></div>
+	</div>
+</div>

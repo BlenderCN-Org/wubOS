@@ -1,0 +1,1 @@
+sandbox="allow-pointer-lock allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"

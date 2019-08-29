@@ -1,0 +1,115 @@
+.wubOSMenuNav {
+	text-align:center;
+	width:100%;
+}
+.wubOSNav {
+	display:inline;
+	text-align:left;
+	position:relative;
+	list-style-type:none;
+}
+.wubOSNav > li {
+	float:left;
+	padding:0;
+	position:relative;
+	max-height: 24px;
+}
+.wubOSNav > li > a {
+	border:1px solid transparent;
+	display:block;
+	font-size:90%;
+	padding:3px 10px;
+	position:relative;
+	text-decoration:none;
+}
+.wubOSNav > li > a:hover {
+	/*background-color:#e4ecf4;
+	border-color:#999*/
+}
+.wubOSNav > li.selectedWubOSNav  > a {
+	border-color:#999999 #999999 #FFFFFF;
+	z-index:2;
+}
+.wubOSNav li div {
+	position:relative;
+	border: none;
+}
+.wubOSNav li div div {
+	border:1px solid #999999;
+	padding:0;
+	display:none;
+	font-size:0.75em;
+	margin:0;
+	position:absolute;
+	top:-1px;
+	z-index:1;
+	width:190px;
+}
+.wubOSNav li div div.wrp2 {
+	width:380px;
+}
+.wubOSNav .wubOSNavSep {
+	background-color: #E3E3E3;
+	height: 1px;
+	width: 100%;
+}
+.wubOSNav li div ul {
+	padding:0px;
+	position:relative;
+	width:100%;
+	float:left;
+	list-style-type:none;
+}
+.wubOSNav li div ul li {
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+.wubOSNav li div ul li h3 {
+	border-bottom:1px solid #E3E3E3;
+	font-weight:bold;
+	margin:0 5px 4px;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+.wubOSNav li ul ul {
+	padding: 0;
+}
+.wubOSNav li ul ul li {
+	margin:0;
+	padding:0;
+	display: block;
+}
+.wubOSNav li ul ul li a {
+	text-align: initial;
+	word-break: break-all;
+	max-height: 14px;
+	display: block;
+	overflow: hidden;
+	padding:3px 5px;
+	text-decoration:none;
+}
+.wubOSNav li ul ul li a:hover{
+	/*background-color:#0060a6;
+	color:#fff;*/
+}
+.wubOSNav li a{
+	cursor: pointer;
+}
+.wubOSMenuNav .wubOSNav .wubOSNavSubs > div > ul > li > ul > li ul{
+	position: absolute;
+	left: 100%;
+	border: 1px solid #999999;
+	top: 0px;
+	display: none;
+}
+.menuArrowW{
+	position: absolute;
+	right: 5px;
+}
+.liContainer{
+	position: relative;
+}
+.wubOSMenuNav li, .wubOSMenuNav ul{
+	border: none!important;
+}

@@ -1,0 +1,9 @@
+<div class="baseVideoPlayer">
+	<button uid="abrirBtn">Abrir</button><button uid="abrirUrlBtn">Abrir url</button>
+	<ul uid="listVideoControl" class="listVideoControl" ></ul>
+	<div uid="videoDivControl" class="videoDivControl">
+		<video uid="videoControl" class="videoControl" controls="true">
+			<source uid="sourceVideo"></source>
+		</video>
+	</div>
+</div>

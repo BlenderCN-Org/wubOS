@@ -1,0 +1,34 @@
+.camera .baseCamera{
+	height: 100%;
+	width: 100%;
+}
+.camera .cameraControl{
+	width: 100%;
+	height: calc(100% - 50px);
+	background-color: darkgray;
+}
+.camera .cameraControlsDiv{
+	height: 50px;
+	width: 100%;
+}
+.camera .canvasCamera{
+	/*width: 100%;
+	height: calc(100% - 30px);*/
+	display: none;
+}
+.camera .btnCamera{
+	background-image: url('img/ic_camera_48px-128.png');
+	height: 50px;
+	width: 50px;
+	background-size: 100% 100%;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+	border-radius: 50%;
+}
+.camera .btnCamera:hover{
+	background-color: white;
+}

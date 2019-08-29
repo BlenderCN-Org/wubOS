@@ -1,0 +1,6 @@
+.feedek .fdMenu{
+	height: 24px;
+}
+.feedek #accordioncontainer{
+	height: calc(100% - 26px);
+}

@@ -1,0 +1,6 @@
+<div>
+	<input uid="urlInput"/>
+	<button uid="btnGo">Ir</button>
+	<ul uid="listWindows">
+	</ul>
+</div>

@@ -1,0 +1,10 @@
+<div class="base">
+	<span style="position: absolute;" uid="openChannel"><i class="openChannel fa fa-list" aria-hidden="true"></i></span>
+	<i uid="pOff" class="pOff fa fa-power-off" aria-hidden="true"></i>
+	<div uid="areaTv" class="areaTv">
+	</div>
+	<div uid="channelsDiv" class="channelsDiv">
+		<ul class="channelsUl" uid="channelsUl">
+		</ul>
+	</div>
+</div>

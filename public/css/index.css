@@ -1,0 +1,450 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+*:focus{
+	outline: none;
+}
+a{
+	text-decoration: underline;
+	cursor: pointer;
+}
+#baseHtml,#baseBody{
+	height: 100%;
+	width: 100%;
+}
+#baseBody{
+	background-color: black;
+	overflow: hidden!important;
+	background-image: url('../wubOS.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#particles-js{
+	background-image: url('../wubOS.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+#barVentanas{
+	z-index: 999;
+	opacity: 0.8;
+	position: absolute;
+	bottom: 0px;
+	/*background: -moz-linear-gradient(#222,#555);
+	background: -webkit-linear-gradient(#222,#555);
+	background: -o-linear-gradient(#222,#555);
+	background: -ms-linear-gradient(#222,#555);
+	background: linear-gradient(#222,#555);*/
+}
+#desplegableBar{
+	z-index: 1000;
+	position: absolute;
+	/*background: -moz-linear-gradient(#222,#555);
+	background: -webkit-linear-gradient(#222,#555);
+	background: -o-linear-gradient(#222,#555);
+	background: -ms-linear-gradient(#222,#555);
+	background: linear-gradient(#222,#555);*/
+	background-image: none;
+}
+#desplegableMiniBar{
+	bottom: 0px;
+	position: absolute;
+	border-top: none;
+	border-left: none!important;
+	border-right: none!important;
+	/*background: -moz-linear-gradient(#555,#222);
+	background: -webkit-linear-gradient(#555,#222);
+	background: -o-linear-gradient(#555,#222);
+	background: -ms-linear-gradient(#555,#222);
+	background: linear-gradient(#555,#222);
+	border-bottom: 1px white solid;*/
+}
+#baseEscritorios{
+	background-color: black;
+	position: absolute;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.escritorio{
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.divBase{
+	position: absolute!important;
+	overflow: hidden;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 4px 4px 0px 0px;
+	
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+.barraVentana{
+	/*color: white;*/
+	position: relative;
+	overflow: hidden;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	/*background: -moz-linear-gradient(#222,#555);
+	background: -webkit-linear-gradient(#222,#555);
+	background: -o-linear-gradient(#222,#555);
+	background: -ms-linear-gradient(#222,#555);
+	background: linear-gradient(#222,#555);*/
+}
+.cajaControles{
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	margin-right: 2px;
+	padding-left: 10px;
+	background: transparent;
+	z-index: 1;
+}
+.btnControl{
+	width: 22px;
+	height: 22px;
+	border: 0px;
+	border-radius: 3px;
+	float: right;
+	margin-left: 1px;
+}
+.lblTitulo{
+	width: calc(100% - 105px);
+	float: left;
+	margin-left: 2px;
+	margin-top: 1px;
+	font-size: 18px;
+	cursor: default;
+	white-space: nowrap;
+	position: absolute;
+	overflow: hidden;
+}
+.barIcono{
+	float: left;
+	margin-left: 2px;
+	margin-top: 1px;
+	width: 20px;
+	height: 20px;
+}
+.btnBarra{
+	color: white;
+	overflow: hidden;
+	height: 25px;
+	width: /*auto*/150px;
+	/*max-width: 150px;
+	min-width: 50px;*/
+	border: 1px solid grey;
+	margin: 1px;
+	border-radius: 4px;
+	background-repeat: no-repeat!important;
+	background-size: 24px 24px !important;
+	background-position: 2px 3px!important;
+	background-color: transparent;
+	padding: 2px 2px 2px 30px;
+	white-space: nowrap;/*?*/
+	cursor: pointer;
+	line-height: 25px;
+	position: relative;
+	float: left;
+}
+/*.Active{
+	background-color: crimson;
+}
+.btnBarra:hover,.Active:hover{
+	border-color: white;
+	background-color: orange;
+}*/
+.bMax{
+	background-image: url('../img/maximize.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+.bMin{
+	background-image: url('../img/minimize.png');
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+}
+.bCerrar{
+	background-image: url('../img/close.png');
+	background-size: 23px 23px;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+}
+.bCerrar:hover,.bMin:hover,.bMax:hover{
+	opacity: 1;
+}
+.divContenido{
+	overflow: auto;
+	position: absolute;
+}
+.ui-contextmenu {
+	z-index: 10000;
+}
+hr.styleSeparator {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.styleSeparator:after {
+    content: "Otras";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+#hrMinibar{
+	margin-top: 9px;
+	border: 3px solid #666;
+	border-radius: 300px/10px;
+	height: 0px;
+	text-align: center;
+}
+#hrMinibar:hover{
+	margin-top: 9px;
+	border: 3px solid yellow;
+	border-radius: 300px/10px;
+	height: 0px;
+	text-align: center;
+}
+#divHr{
+	border: none!important;
+}
+#divHr:hover > #hrMinibar{
+	margin-top: 9px;
+	border: 3px solid yellow;
+	border-radius: 300px/10px;
+	height: 0px;
+	text-align: center;
+}
+.accesoDirecto{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	color: black;
+	background-clip:content-box;
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	cursor: default;
+	padding: 3px 3px 10px 3px;
+    background-position: 50% 50%;
+	background-clip: border-box;
+	z-index: 0;
+}
+.accesoDirecto .icon{
+	position: absolute;
+	left: calc(50% - 16px);
+}
+.accesoDirecto:hover{
+	background-color: orange;
+	z-index: 1;
+	opacity: 0.8;
+}
+.accesoDirecto span{
+	top: 40px;
+	position: relative;
+	height: 20px;
+	overflow: hidden;
+	min-width: 110px;
+	text-align: center;
+	word-break: break-word;
+}
+.accesoDirecto:hover > span{
+	overflow: visible;
+	background-color: orange;
+	display: table;
+	padding: 3px;
+	border-radius: 3px;
+}
+.dockMenuItem{
+	color: transparent;
+	display: flex;
+	float: left;
+	height: 24px;
+	width: 24px;
+	position: relative;
+	background-size: 100% 100%;
+	cursor: default;
+	text-align: center;
+	justify-content: center;
+	white-space: nowrap;
+	margin: 0px 2px 0px 2px;
+	overflow: visible;
+}
+.dockMenuItem:hover{
+	height: 36px;
+	width: 36px;
+	line-height: 100px;
+	color: white;
+	overflow: visible;
+	text-shadow: 3px 3px black;
+}
+.myTransferClass { border: 2px dotted gray; }
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+	background-color: rgba(113,112,107,0.1);
+	-webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:vertical {
+	background-color: rgba(0,0,0,.2);
+	-webkit-border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+	background: red;
+}
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: rgba(0,0,0,.2);
+	-webkit-border-radius: 6px;
+}
+/*::-webkit-scrollbar {
+    width: 1em;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}*/
+/*::-webkit-scrollbar { width: 6px; height: 6px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}*/
+
+#dock-container {
+	position: fixed;
+	bottom: 34px;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(255,255,255,0.2);
+	border-radius: 10px 10px 0 0;
+	z-index: 999;
+	display: none;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#dock-container li {
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+}
+#dock-container li img {
+	width: 64px;
+	height: 64px;
+	-webkit-box-reflect: below 2px
+			-webkit-gradient(linear, left top, left bottom, from(transparent),
+			color-stop(0.7, transparent), to(rgba(255,255,255,.5)));
+	-webkit-transition: all 0.3s;
+	-webkit-transform-origin: 50% 100%;
+}
+#dock-container li:hover img { 
+	-webkit-transform: scale(2);
+	margin: 0 2em;
+}
+#dock-container li:hover + li img,
+#dock-container li.prev img {
+	-webkit-transform: scale(1.5);
+	margin: 0 1.5em;
+}
+#dock-container li .icon {
+	width: 64px;
+	height: 64px;
+	-webkit-box-reflect: below 2px
+			-webkit-gradient(linear, left top, left bottom, from(transparent),
+			color-stop(0.7, transparent), to(rgba(255,255,255,.5)));
+	-webkit-transition: all 0.3s;
+	-webkit-transform-origin: 50% 100%;
+}
+#dock-container li:hover .icon { 
+	-webkit-transform: scale(2);
+	margin: 0 2em;
+}
+#dock-container li:hover + li .icon,
+#dock-container li.prev .icon {
+	-webkit-transform: scale(1.5);
+	margin: 0 1.5em;
+}
+#dock-container li span {
+	display: none;
+	position: absolute;
+	bottom: 140px;
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.75);
+	padding: 4px 0;
+	border-radius: 12px;
+}
+#dock-container li:hover span {
+	display: block;
+	color: #fff;
+}
+.video-background {
+	background: #000;
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: -99;
+	/*opacity: 0.5;*/
+}
+.video-foreground,
+.video-background iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+	.video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+	.video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+.live-tile .icon{
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: calc(50% - 48px);
+	top: calc(50% - 56px);
+}

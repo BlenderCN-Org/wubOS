@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<apps>
+	<app>
+		<name>Youtube</name>
+		<decripcion>Burcador videos de Google.inc</decripcion>
+		<instaltionName>youtube</instaltionName>
+		<instaltionName>youtubeSingleVideo</instaltionName>
+		<filePath>apps/youtube/index.js</filePath>
+		<icon>apps/youtube/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Dailymotion</name>
+		<decripcion>Burcador videos de Dailymotion</decripcion>
+		<instaltionName>dailymotion</instaltionName>
+		<instaltionName>dailymotion</instaltionName>
+		<filePath>apps/dailymotion/index.js</filePath>
+		<icon>apps/dailymotion/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Twitch</name>
+		<decripcion>Burcador streamings y videos</decripcion>
+		<instaltionName>twitch</instaltionName>
+		<instaltionName>twitchSingleStream</instaltionName>
+		<filePath>apps/twitch/index.js</filePath>
+		<icon>apps/twitch/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>CodeFlash</name>
+		<decripcion>Editor de texto para html, javascript, css, etc.</decripcion>
+		<instaltionName>codeflash</instaltionName>
+		<filePath>apps/codeflash/index.js</filePath>
+		<icon>apps/codeflash/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>iViwer</name>
+		<decripcion>Visor de imágenes.</decripcion>
+		<instaltionName>iviwer</instaltionName>
+		<filePath>apps/iviwer/index.js</filePath>
+		<icon>apps/iviwer/img/favicon.png</icon>
+		<permision>File System Open</permision>
+	</app>
+	<app>
+		<name>TinyMCE</name>
+		<decripcion>Editor de texto WYSIWYG.</decripcion>
+		<instaltionName>tinymceApp</instaltionName>
+		<filePath>apps/tinymceApp/index.js</filePath>
+		<icon>apps/tinymceApp/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>elRTE</name>
+		<decripcion>Editor de texto WYSIWYG.</decripcion>
+		<instaltionName>elrte</instaltionName>
+		<filePath>apps/elrte/index.js</filePath>
+		<icon>apps/elrte/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Calendar</name>
+		<decripcion>Calendario.</decripcion>
+		<instaltionName>calendar</instaltionName>
+		<filePath>apps/calendar/index.js</filePath>
+		<icon>apps/calendar/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Calculadora</name>
+		<decripcion>Calculadora.</decripcion>
+		<instaltionName>calculadora</instaltionName>
+		<filePath>apps/calculadora/index.js</filePath>
+		<icon>apps/calculadora/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Reloj</name>
+		<decripcion>Reloj.</decripcion>
+		<instaltionName>reloj</instaltionName>
+		<filePath>apps/reloj/index.js</filePath>
+		<icon>apps/reloj/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Reloj Digital</name>
+		<decripcion>Reloj Digital.</decripcion>
+		<instaltionName>digitalclock</instaltionName>
+		<filePath>apps/digitalclock/index.js</filePath>
+		<icon>apps/digitalclock/assets/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Top Radio</name>
+		<decripcion>Radio.</decripcion>
+		<instaltionName>topradio</instaltionName>
+		<filePath>apps/topradio/index.js</filePath>
+		<icon>apps/topradio/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Browser</name>
+		<decripcion>Navegador web.</decripcion>
+		<instaltionName>browser</instaltionName>
+		<filePath>apps/browser/index.js</filePath>
+		<icon>apps/browser/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Audio Player</name>
+		<decripcion>Reproducto audio.</decripcion>
+		<instaltionName>audioplayer</instaltionName>
+		<filePath>apps/audioplayer/index.js</filePath>
+		<icon>apps/audioplayer/img/favicon.png</icon>
+		<permision>File System Open</permision>
+	</app>
+	<app>
+		<name>Video Player</name>
+		<decripcion>Reproducto video.</decripcion>
+		<instaltionName>videoplayer</instaltionName>
+		<filePath>apps/videoplayer/index.js</filePath>
+		<icon>apps/videoplayer/img/favicon.png</icon>
+		<permision>File System Open</permision>
+	</app>
+	<app>
+		<name>HideMe</name>
+		<decripcion>Navegardor Proxy..</decripcion>
+		<instaltionName>hideme</instaltionName>
+		<filePath>apps/hideme/index.js</filePath>
+		<icon>apps/hideme/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Camara</name>
+		<decripcion>Camara de fotografía.</decripcion>
+		<instaltionName>camera</instaltionName>
+		<filePath>apps/camera/index.js</filePath>
+		<icon>apps/camera/img/favicon.png</icon>
+		<permision>File System Write</permision>
+	</app>
+	<app>
+		<name>FeedEk</name>
+		<decripcion>Feed RSS.</decripcion>
+		<instaltionName>feedek</instaltionName>
+		<filePath>apps/feedek/index.js</filePath>
+		<icon>apps/feedek/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>EpubReader</name>
+		<decripcion>Lector epub.</decripcion>
+		<instaltionName>epubreader</instaltionName>
+		<filePath>apps/epubreader/index.js</filePath>
+		<icon>apps/epubreader/img/favicon.png</icon>
+		<permision>File System Open</permision>
+	</app>
+	<app>
+		<name>Frame Budget</name>
+		<decripcion>Frame statics.</decripcion>
+		<instaltionName>framebudget</instaltionName>
+		<filePath>apps/framebudget/index.js</filePath>
+		<icon>apps/framebudget/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Tv Español</name>
+		<decripcion>Frame statics.</decripcion>
+		<instaltionName>tvesponline</instaltionName>
+		<filePath>apps/tvesponline/index.js</filePath>
+		<icon>apps/tvesponline/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Finder</name>
+		<decripcion>iosfilebrowser.</decripcion>
+		<instaltionName>iosfilebrowser</instaltionName>
+		<filePath>apps/iosfilebrowser/index.js</filePath>
+		<icon>apps/iosfilebrowser/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>PixlrApp</name>
+		<decripcion>psd editor.</decripcion>
+		<instaltionName>pixlrapp</instaltionName>
+		<filePath>apps/pixlrapp/index.js</filePath>
+		<icon>apps/pixlrapp/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Photopea</name>
+		<decripcion>psd editor.</decripcion>
+		<instaltionName>photopea</instaltionName>
+		<filePath>apps/photopea/index.js</filePath>
+		<icon>apps/photopea/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Plyr</name>
+		<decripcion>Reproductor videos.</decripcion>
+		<instaltionName>plyrapp</instaltionName>
+		<filePath>apps/plyrapp/index.js</filePath>
+		<icon>apps/plyrapp/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Howler</name>
+		<decripcion>reproductor audio.</decripcion>
+		<instaltionName>howler</instaltionName>
+		<filePath>apps/howler/index.js</filePath>
+		<icon>apps/howler/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>annyang</name>
+		<decripcion>Comandos audio.</decripcion>
+		<instaltionName>annyangapp</instaltionName>
+		<filePath>apps/annyangapp/index.js</filePath>
+		<icon>apps/annyangapp/favicon.png</icon>
+	</app>
+	<app>
+		<name>ThreeJS Editor</name>
+		<decripcion>Editor 3D.</decripcion>
+		<instaltionName>threejseditor</instaltionName>
+		<filePath>apps/threejseditor/index.js</filePath>
+		<icon>apps/threejseditor/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Speed Test</name>
+		<decripcion>Test conexión.</decripcion>
+		<instaltionName>speedtest</instaltionName>
+		<filePath>apps/speedtest/index.js</filePath>
+		<icon>apps/speedtest/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Virtual Keyboard</name>
+		<decripcion>Virtual Keyboard.</decripcion>
+		<instaltionName>virtualkeyboard</instaltionName>
+		<filePath>apps/virtualkeyboard/index.js</filePath>
+		<icon>apps/virtualkeyboard/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Richexplorer</name>
+		<decripcion>file/folder explorer.</decripcion>
+		<instaltionName>richexplorer</instaltionName>
+		<filePath>apps/richexplorer/index.js</filePath>
+		<icon>apps/richexplorer/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>BlockRain</name>
+		<decripcion>juego.</decripcion>
+		<instaltionName>blockrain</instaltionName>
+		<filePath>apps/blockrain/index.js</filePath>
+		<icon>apps/blockrain/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>WebODF</name>
+		<decripcion>editor.</decripcion>
+		<instaltionName>webodf</instaltionName>
+		<filePath>apps/webodf/index.js</filePath>
+		<icon>apps/webodf/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>hExel</name>
+		<decripcion>excel editor.</decripcion>
+		<instaltionName>hExcel</instaltionName>
+		<filePath>apps/hExcel/index.js</filePath>
+		<icon>apps/hExcel/img/favicon.png</icon>
+	</app>
+	<!--<app>
+		<name>JSZip</name>
+		<decripcion>Gestor archivos Zip.</decripcion>
+		<instaltionName>jszip</instaltionName>
+		<filePath>apps/jszip/index.js</filePath>
+		<icon>apps/jszip/img/favicon.png</icon>
+		<permision>File System Open</permision>
+	</app>
+	<app>
+		<name>Google</name>
+		<decripcion>Burcador motor Google.inc</decripcion>
+		<instaltionName>googleApp</instaltionName>
+		<filePath>apps/googleApp/index.js</filePath>
+		<icon>apps/googleApp/img/favicon.png</icon>
+	</app>
+	<app>
+		<name>Prueba</name>
+		<decripcion>Prueba.</decripcion>
+		<instaltionName>pruebaapp</instaltionName>
+		<filePath>apps/pruebaapp/index.js</filePath>
+		<icon>apps/pruebaapp/img/favicon.png</icon>
+	</app>-->
+</apps>

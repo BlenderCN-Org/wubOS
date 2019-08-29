@@ -1,0 +1,5 @@
+<div>
+	<form uid="frmEditor">
+		<div uid="editor"></div>
+	</form>
+</div>

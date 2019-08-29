@@ -1,0 +1,29 @@
+<div class="base">
+	<div uid="title" class="title">
+		<span uid="track" class="track"></span>
+		<div uid="timer" class="timer">0:00</div>
+		<div uid="duration" class="duration">0:00</div>
+	  </div>
+	  <div class="controlsOuter">
+		<div class="controlsInner">
+		  <div class="loading" uid="loading"></div>
+		  <div class="playBtn btn" uid="playBtn"></div>
+		  <div class="pauseBtn btn" uid="pauseBtn"></div>
+		  <div class="prevBtn btn" uid="prevBtn"></div>
+		  <div class="nextBtn btn" uid="nextBtn"></div>
+		</div>
+		<div class="playlistBtn btn" uid="playlistBtn"></div>
+		<div class="volumeBtn btn" uid="volumeBtn"></div>
+	  </div>
+	  <div uid="waveform" class="waveform"></div>
+	  <div uid="bar" class="bar"></div>
+	  <div uid="progress" class="progress"></div>
+	  <div uid="playlist" class="playlist">
+		<div uid="list" class="list"></div>
+	  </div>
+	  <div uid="volume" class="volume fadeout">
+		<div uid="barFull" class="barFull bar"></div>
+		<div uid="barEmpty" class="barEmpty bar"></div>
+		<div uid="sliderBtn" class="sliderBtn"></div>
+	  </div>
+</div>

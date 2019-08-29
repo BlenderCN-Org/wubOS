@@ -1,0 +1,90 @@
+﻿.youtubeApp{
+	overflow: hidden!important;
+}
+
+.youtubeApp #cabecera{
+	z-index: 10;
+	padding: 10px;
+	height: 60px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border-bottom: solid 1px #333;
+	width: calc(100% - 20px);
+	background-color: white;
+	overflow: hidden;
+}
+.youtubeApp #contentVideo{
+	height: calc(100% - 81px);
+	overflow: auto;
+	width: 100%;
+}
+.youtubeApp #search_input{
+	position: relative;
+	top: -17px;
+	height: 40px;
+	width: 50%;
+	border: solid 1px #c2ccd1;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.youtubeApp .btnTab{
+	position: absolute;
+	bottom: -2px;
+	height: 20px;
+	border: solid 1px #c2ccd1;
+	border-radius: 5px 5px 0px 0px;
+	width: 120px;
+}
+.youtubeApp .btnTab:hover{
+	background-color: #c8312b;
+	color: white;
+	font-weight: bolder;
+}
+.youtubeApp .btnYt{
+	width: 90px;
+	position: relative;
+	top: -19px;
+	height: 40px;
+	height: 40px;
+	border: solid 1px #c2ccd1;
+	border-radius: 5px;
+}
+.youtubeApp .btnYt:hover{
+	background-color: #c8312b;
+	color: white;
+	font-weight: bolder;
+}
+.youtubeApp .btnCloseVid{
+	background-color: #c2ccd1;
+	color: #333;
+	border: #c2ccd1 1px solid;
+	padding: 2px 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.youtubeApp .btnCloseVid:hover{
+	color: white;
+	background-color: #c8312b;
+	border-color: white;
+}
+.youtubeApp #cajaVideos{
+}
+.youtubeApp #result{
+	width: 100%;
+	background-color: white;
+	display: inline-block;
+}
+.youtubeApp td{
+	vertical-align: top;
+}
+.youtubeApp .miniatura{
+	width: 196px;
+	height: 120px;
+}
+.youtubeApp .logo{
+	cursor: pointer;
+}
+.youtubeApp #result h4{
+	display: inline-block;
+}

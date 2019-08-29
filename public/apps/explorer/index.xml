@@ -1,0 +1,11 @@
+<div class="explorerTab">
+	<div class="explorerBar" uid="divBarra">
+		<button uid="btnUpload">Upload</button>
+		<button uid="btnGoUp">Up</button>
+		<input type="text" uid="rutaInp"/>
+	</div>
+	<div class="explorerContent" uid="contentDiv">
+		<div uid="divTree"><ul uid="ulTree"></ul></div>
+		<div uid="divGridView"></div>
+	</div>
+</div>
