@@ -803,12 +803,6 @@ function logInBBDD(user, pass, callback){
 };*/
 //Firebase
 var fireConfig = {
-	apiKey: "AIzaSyCdewUtpXyJpYxAU61fVMIWr8blIZ_EUSs",
-	authDomain: "api-project-268959058773.firebaseapp.com",
-	databaseURL: "https://api-project-268959058773.firebaseio.com",
-	projectId: "api-project-268959058773",
-	storageBucket: "api-project-268959058773.appspot.com",
-	messagingSenderId: "268959058773"
 };
 firebase.initializeApp(fireConfig);
 
